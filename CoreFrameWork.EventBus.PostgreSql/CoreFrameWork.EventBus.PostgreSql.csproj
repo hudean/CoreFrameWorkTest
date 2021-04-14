@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.9" />
+    <PackageReference Include="Npgsql" Version="5.0.4" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\CoreFrameWork.EventBus\CoreFrameWork.EventBus.csproj" />
+  </ItemGroup>
+
+</Project>

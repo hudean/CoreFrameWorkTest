@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreFrameWork.Domain\CoreFrameWork.Domain.csproj" />
+    <ProjectReference Include="..\CoreFrameWork.EntityFrameWorkCore\CoreFrameWork.EntityFrameWorkCore.csproj" />
+    <ProjectReference Include="..\CoreFrameWork.EventBus.RabbitMQ\CoreFrameWork.EventBus.RabbitMQ.csproj" />
+    <ProjectReference Include="..\CoreFrameWork.EventBus\CoreFrameWork.EventBus.csproj" />
+    <ProjectReference Include="..\CoreFrameWork.Modularity\CoreFrameWork.Modularity.csproj" />
+    <ProjectReference Include="..\CoreFrameWork.RabbitMQ\CoreFrameWork.RabbitMQ.csproj" />
+  </ItemGroup>
+
+</Project>
